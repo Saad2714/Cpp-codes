@@ -29,6 +29,8 @@ int main()
     //reverse elements of list
     LI.reverse();
 
+    //YO!
+
     cout<<"All elements of List LI are after reversing: " <<endl;
     for(it = LI.begin();it!=LI.end();it++)
     {
