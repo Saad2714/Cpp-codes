@@ -10,7 +10,7 @@ int main()
     LI.push_back(5);
 
     //inserts elements at beginning of list
-    LI.push_front(3);
+    LI.push_front(3);               //insert elements at the start of the list
     LI.push_front(5);
 
     //returns reference to first element of list
@@ -27,7 +27,7 @@ int main()
     cout<<endl;
 
     //reverse elements of list
-    LI.reverse();
+    LI.reverse();                  //reverses list
 
     cout<<"All elements of List LI are after reversing: " <<endl;
     for(it = LI.begin();it!=LI.end();it++)
